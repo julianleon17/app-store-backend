@@ -40,7 +40,7 @@ router.patch( '/update/:id', ( req, res, next ) => {
     const body = req.body;
     const { id } = req.params;
 
-    services.updateProduct( id );
+    services.updateProduct( id, body );
 
     res
     .json( {

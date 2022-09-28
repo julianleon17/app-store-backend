@@ -59,7 +59,8 @@ class ProductsServices {
   }
 
   // Product creation
-  updateProduct( id, key='' ) {
+  updateProduct( id, toUpdate ) {
+    console.log( toUpdate );
   }
 
   // Product creation
